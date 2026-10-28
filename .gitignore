@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Variables de entorno y secretos
+.env
+*.pem
+*.key
+
+# Streamlit y FastAPI
+.streamlit/
+temp_audio/
+temp_pdf/
+*.pdf
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
